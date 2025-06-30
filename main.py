@@ -42,13 +42,13 @@ pygame.mixer.music.set_volume(0.2)
 # Efectos de sonido
 # =============================
 shoot_sound = pygame.mixer.Sound("Assets/Audio/Effects/Lasershoot.ogg")
-shoot_sound.set_volume(0.3)
+shoot_sound.set_volume(0.2)
 
 hit_sound = pygame.mixer.Sound("Assets/Audio/Effects/Explosion.ogg")
-hit_sound.set_volume(0.3)
+hit_sound.set_volume(0.2)
 
 death_sound = pygame.mixer.Sound("Assets/Audio/Effects/Explosion2.ogg")
-death_sound.set_volume(0.3)
+death_sound.set_volume(0.2)
 
 # =============================
 # Parallax
