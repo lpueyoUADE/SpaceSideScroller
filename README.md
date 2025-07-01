@@ -2,6 +2,25 @@
 # Space SideScroller
 A simple 2D sidescroller shooter. Destroy the enemy spaceships, earn points and resist as long as you can! Made with Python and Pygame.
 
+## Build the game locally
+
+### Prerequisites
+- Python 3.11 or higher
+- pygame ( `pip install pygame`)
+- pygbag ( `pip install pygbag`)
+
+---
+
+### compile with pygbag for itchio
+```bash
+python -m pygbag --archive ./main.py
+```
+
+### Run local web server
+```bash
+python pygbag .
+```
+
 ## Resources
 - [sfxr.me](https://sfxr.me/) - Retro sound effects Generator
 - [Silkscreen - Google Fonts](https://fonts.google.com/specimen/Silkscreen) - Pixelated Font
